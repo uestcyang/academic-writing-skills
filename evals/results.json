@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "version": "0.1.0",
+  "type": "functional_examples",
+  "cases": 8,
+  "passed": 8,
+  "executor_context": "fresh_subagent_without_parent_history",
+  "grader": "parent_agent_manual_review_against_published_rubric",
+  "primary_files": {
+    "skills/academic-writing/SKILL.md": "95c0de812635b85455cff61426a551a9e1695e918b51003ec3e037bd178092a5",
+    "evals/cases.json": "e42ee673b9328fbee237f8b590c02d12b62840f89a50f6a18fb6f0b66101dae8",
+    "evals/outputs.json": "fa0634af1a25eafc045232bf1818cd30acaf50825a143550ba42be74a01cd207"
+  },
+  "results": [
+    {
+      "id": "C01",
+      "status": "pass",
+      "reason": "只报告依赖安装、资料整理和流程测试，保留尚未训练或复现的状态。"
+    },
+    {
+      "id": "C02",
+      "status": "pass",
+      "reason": "保留24个独立样本、双侧检验、0.05与p=0.18，没有推出等效或稳定替代。"
+    },
+    {
+      "id": "C03",
+      "status": "pass",
+      "reason": "分别归属数据/协议与索引/耗时贡献，沿用给定编号，无新增书目。"
+    },
+    {
+      "id": "C04",
+      "status": "pass",
+      "reason": "指出正则与训练轮数共同变化，保留单次运行限制，后续设计使用计划语气。"
+    },
+    {
+      "id": "C05",
+      "status": "pass",
+      "reason": "保留对参数量归因的实质否定及固定条件，结论限于当前计时观测。"
+    },
+    {
+      "id": "C06",
+      "status": "pass",
+      "reason": "仅输出原标题和两点替换文本，未声称编辑文件或完成渲染验收。"
+    },
+    {
+      "id": "C07",
+      "status": "pass",
+      "reason": "将确定的比较计划写入正文，集中列出缺少的文献与评价条件，没有编造引用。"
+    },
+    {
+      "id": "C08",
+      "status": "pass",
+      "reason": "保留2/50、3/50、4%、6%、12.4 s、11.8 s及失败耗时排除口径，术语一致。"
+    }
+  ],
+  "limitations": [
+    "Synthetic cases only; one execution per case.",
+    "No comparison baseline, independent human reader study, model-generalization estimate or detector-performance claim.",
+    "The executor did not receive the scoring rubric.",
+    "After execution, two illustrative examples were clarified and the K3 layout permission condition was narrowed; no claimed performance gain follows from those edits."
+  ]
+}

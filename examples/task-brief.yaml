@@ -1,0 +1,24 @@
+# 人工填写的任务说明，不是运行配置或安装脚本。
+genre: 开题报告
+audience: 本学科导师
+goal: 修订论证与表达，保留原模板
+scope:
+  allowed:
+    - 句内改写
+    - 删除无信息句
+    - 修复已有信息之间的逻辑关系
+  preserve:
+    - 研究路线
+    - 标题层级
+    - 术语与数值
+    - 引文归属
+    - 母版和图表
+evidence:
+  supplied_materials: []
+  completed_work: []
+  planned_work: []
+  known_limitations: []
+output:
+  format: 修订正文与关键修改说明
+  citation_style: 沿用原模板
+  unresolved_items: 集中列入编辑说明
